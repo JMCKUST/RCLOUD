@@ -1,0 +1,32 @@
+# 단축키 열기 
+Alt Shift K
+# FUNC 열기
+source('C:/Users/USER/Desktop/JMCR/FUNC.R', encoding = 'UTF-8')
+# 유용한패키지 
+source('유용한패키지.R', encoding = 'UTF-8')
+
+# 내단축키로 변경 ---------------------------------------------------------
+
+# Run 실행
+Ctrl R 지정 (Alt Enter)
+# 지시표시 <-
+Ctrl Q 지정 (Alt -)
+# 지시표시 %>% 
+Ctrl E 지정 (Ctrl Shift M) 
+# NOT SOFT WRAP
+Ctrl Alt W 지정 (Toggle Soft~)
+
+# 기존단축키 ----------------------------------------------------------------
+# 코드복사
+# 목차추가(#-----)
+Ctrl Shift R
+# 이름달기(#) 
+Ctrl Shift C
+# 줄지우기
+Ctrl D
+# 콘솔 스크립트
+Ctrl 1이랑 2 
+# 콘솔 초기화
+Ctrl L
+# 코드 위아래이동
+Ctrl (Alt+↑ / Alt+↓)

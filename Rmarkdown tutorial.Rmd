@@ -1,0 +1,32 @@
+---
+title: "Rmarkdown tutorial"
+author: "조민철"
+date: '2021 12 14 '
+output: html_document
+---
+
+---
+## R Markdown
+#### 단축키
+1. Knit : __Ctrl Shift K__
+1. Chunk : __Ctrl Alt I__
+1. 한줄실행 : __Ctrl Enter__
+1. Chunk실행 : __Ctrl Shift Enter__
+**knit** 버튼으로 RMD 문서를 원하는 서식 형태로 볼 수 있다
+```Ctrl Alt i```로 새로운 청크를 만들어보자
+- 매번 ```{r}```을 직접 칠 이유가 없다
+---
+
+```{r include=FALSE}
+install.packages('tidyverse')
+```
+
+```{r}
+library(tidyverse)
+```
+
+
+```{r}
+dim(iris)
+```
+
