@@ -1,2 +1,2 @@
 # RCLOUD
-RCLOUD 연동 및 초기설정 
+R cloud 2021.05.31~

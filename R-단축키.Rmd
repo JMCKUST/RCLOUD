@@ -5,6 +5,7 @@ date: '2021 12 14 '
 output: html_document
 ---
 ## R Markdown
+
 > 
 - Knit : __Ctrl Shift K__
 - Chunk : __Ctrl Alt I__
@@ -18,10 +19,17 @@ output: html_document
 - 파이프연산자 %>% : __Ctrl E 지정__ (Ctrl Shift M) 
 - TAB 이동 : 
 - NOT SOFT WRAP : __Ctrl Alt W 지정__ (Toggle Soft~)
-- Snippet : __Shift Enter 지정__
-- Snippet 수정 : __Ctrl | 지정__
+- FUNC 열기
+```{r}
+source('FUNC.R', encoding = 'UTF-8')
+```
+- 유용한패키지
+```{r}
+source('유용한패키지.R', encoding = 'UTF-8')
+```
 
 ## 기본단축키
+
 >
 - 단축키 열기 : __Alt Shift K__
 - 목차 : __Ctrl Shift R__
@@ -31,3 +39,12 @@ output: html_document
 - 콘솔 초기화 : __Ctrl L__
 - 코드 위아래이동 : __Ctrl (Alt+↑ / Alt+↓)__
 - 같은 단어 선택 : __Ctrl Alt K__
+
+## 코드스니펫(즐겨찾기)
+- VSCODE THEME
+```{r}
+install.packages('remote')
+remotes::install_github("anthonynorth/rscodeio")
+rscodeio::install_theme()
+```
+
