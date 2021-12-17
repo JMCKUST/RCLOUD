@@ -4,42 +4,30 @@ author: "JMC"
 date: '2021 12 14 '
 output: html_document
 ---
-
 ## R Markdown
-1. Knit : __Ctrl Shift K__
-1. Chunk : __Ctrl Alt I__
-1. 한줄실행 : __Ctrl Enter__
-1. Chunk실행 : __Ctrl Shift Enter__
+> 
+- Knit : __Ctrl Shift K__
+- Chunk : __Ctrl Alt I__
+  - Chunk 실행 : __Ctrl Shift Enter__
+- 한줄 실행 : __Ctrl Enter__
 
-# 단축키 열기 
-Alt Shift K
-# FUNC 열기
-source('C:/Users/USER/Desktop/JMCR/FUNC.R', encoding = 'UTF-8')
-# 유용한패키지 
-source('유용한패키지.R', encoding = 'UTF-8')
+## Custom 단축키 
+> 
+- Run Code : __Ctrl R 지정__ (Alt Enter)
+- 연산자 <- :  __Ctrl Q 지정__ (Alt -)
+- 파이프연산자 %>% : __Ctrl E 지정__ (Ctrl Shift M) 
+- TAB 이동 : 
+- NOT SOFT WRAP : __Ctrl Alt W 지정__ (Toggle Soft~)
+- Snippet : __Shift Enter 지정__
+- Snippet 수정 : __Ctrl | 지정__
 
-# 내단축키로 변경 ---------------------------------------------------------
-
-# Run 실행
-Ctrl R 지정 (Alt Enter)
-# 지시표시 <-
-Ctrl Q 지정 (Alt -)
-# 지시표시 %>% 
-Ctrl E 지정 (Ctrl Shift M) 
-# NOT SOFT WRAP
-Ctrl Alt W 지정 (Toggle Soft~)
-
-# 기존단축키 ----------------------------------------------------------------
-# 코드복사
-# 목차추가(#-----)
-Ctrl Shift R
-# 이름달기(#) 
-Ctrl Shift C
-# 줄지우기
-Ctrl D
-# 콘솔 스크립트
-Ctrl 1이랑 2 
-# 콘솔 초기화
-Ctrl L
-# 코드 위아래이동
-Ctrl (Alt+↑ / Alt+↓)
+## 기본단축키
+>
+- 단축키 열기 : __Alt Shift K__
+- 목차 : __Ctrl Shift R__
+- 주석 : __Ctrl Shift C__
+- 한줄 지우기 : __Ctrl D__
+- 콘솔 스크립트 : __Ctrl 1이랑 2__
+- 콘솔 초기화 : __Ctrl L__
+- 코드 위아래이동 : __Ctrl (Alt+↑ / Alt+↓)__
+- 같은 단어 선택 : __Ctrl Alt K__

@@ -1,2 +1,2 @@
-# RCLOUD
-RCLOUD 연동 및 초기설정 
+# R-Basic-
+Do it! R 데이터 분석
